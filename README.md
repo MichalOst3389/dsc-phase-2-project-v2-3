@@ -3,6 +3,7 @@
 Another module down - you're almost half way there!
 
 ![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-v2-3/main/halfway-there.gif)
+![never-gonna](https://user-images.githubusercontent.com/87345982/211237978-b1de80b2-9332-4e08-aacb-d73814ad6c3c.gif)
 
 All that remains in Phase 2 is to put your newfound data science skills to use with a large project!
 

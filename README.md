@@ -14,11 +14,13 @@ README
 
 -Price
     While performing data analysis, I plotted pair plots including price, bedrooms, bathrooms, square foot living space, and grade.  I found that while the number of bedrooms dont have much of an effect on price, bathrooms, square footage, and grade made the price go up.
+![Screenshot 2023-01-08 225039](https://user-images.githubusercontent.com/87345982/211238329-d2323124-9fe6-4c5c-9b49-6f479121a89f.png)
 
 
 
 -Location
         For location I decided to create a heat map with the hue set to price.  This gave me a good idea of where to focus the my search.  I realized that the more valuable information was where NOT to search for a house to buy, as most of the map was covered in red plots (red is cheapest, green is the most expensive houses).  This told me to stay away from the coordinates between latitude 47.5, and 47.7, longitude -122.2 and -122.2.  
+![heatmap](https://user-images.githubusercontent.com/87345982/211238382-4d58a070-de97-4160-b152-70882d09bd7e.png)
 
 
 -example investment opputunities
@@ -26,7 +28,8 @@ README
     
 -Renovations
     When it comes to renovations, according to rocket mortgage and national association of home builders, there are certain percentages of your homes value that should not be exceeded when renovating certain room.  I created a function that will take in an original cost of home, and tell you exactly how much money should be spent on each room to be renovated. 
-    
+  ![NAOHB](https://user-images.githubusercontent.com/87345982/211238421-e1608b97-c8eb-40bd-8d43-b008aac762b4.png)
+  
 -To calculate the profit per dollar invested, you would divide the total profit by the amount invested. In this case, the profit per dollar invested would be 1,204,938 / 10,000,000 = 0.1204.  I found that we could make a profit of 12 cents per dollar if following my recommendations.
 
     To summarize, the King's County Housing dataset was analyzed in order to provide investment recommendations for KC Real Estate. After cleaning the data and running OLS regression, it was determined that the data was ready for analysis due to a p-value of less than 0.05 and an R-squared value of 0.659. The independent variables of location, renovations, and whether or not the house's price was over a million were chosen for further analysis. A heat map was created to identify the most and least expensive locations, and three potential investment opportunities were identified based on factors such as the number of bathrooms, square footage, and grade. A function was also created to recommend appropriate renovation budgets based on the value of a home. By following these recommendations, it was estimated that a profit of 0.1204 dollars per dollar invested could be made.

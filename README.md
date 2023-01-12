@@ -2,12 +2,12 @@ README
 
 In the project, I aimed to give sound advice for a company by the name of KC real estate.  KC real estate came to me and asked me to analyze data from the King's County Housing dataset so that they could get a better idea of where to invest 10 million dollars.
 
-After cleaning the data to
- remove empty values that would skew data,
- remove NaN values,
- took rows that had a year for renovation and added a column to include True or False
- ran OLS regression
- switch values to numerical values
+I then cleaned the data to
+-remove empty values that would skew data,
+-remove NaN values,
+-took rows that had a year for renovation and added a column to include True or False
+-ran OLS regression
+-switch values to numerical values
 
 -Location
 

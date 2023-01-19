@@ -19,7 +19,8 @@ After running OLS regression to see the r- squared and P value of the dependent 
 
 I realized after this, that a better way to scope out good houses to buy was to use a heatmap instead.
 For location I decided to create a heat map with the hue set to price.  This gave me a good idea of where to focus the my search.  I realized that the more valuable information was where NOT to search for a house to buy, as most of the map was covered in red plots (red is cheapest, green is the most expensive houses).  This told me to stay away from the coordinates between latitude 47.5, and 47.7, longitude -122.2 and -122.2.  
-![heatmap](https://user-images.githubusercontent.com/87345982/211238382-4d58a070-de97-4160-b152-70882d09bd7e.png)
+
+![heatmap](https://user-images.githubusercontent.com/87345982/213468672-b3214494-30e4-424a-9537-9ab758e6f9be.png)
 
 
 -Price
